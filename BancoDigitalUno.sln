@@ -7,6 +7,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentatio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BancoDigitalUno.Web", "BancoDigitalUno.Web\BancoDigitalUno.Web.csproj", "{10D794AF-5622-40D4-802F-538585354746}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{D7FDB31D-5127-48AD-95D7-70D23992E3CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BancoDigitalUno.Domain", "BancoDigitalUno.Domain\BancoDigitalUno.Domain.csproj", "{C844A8D0-3776-4E4C-8BF3-8F45CCD20D57}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,12 +21,17 @@ Global
 		{10D794AF-5622-40D4-802F-538585354746}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{10D794AF-5622-40D4-802F-538585354746}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{10D794AF-5622-40D4-802F-538585354746}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C844A8D0-3776-4E4C-8BF3-8F45CCD20D57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C844A8D0-3776-4E4C-8BF3-8F45CCD20D57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C844A8D0-3776-4E4C-8BF3-8F45CCD20D57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C844A8D0-3776-4E4C-8BF3-8F45CCD20D57}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{10D794AF-5622-40D4-802F-538585354746} = {CBBC6B7A-B2CF-4706-A9A9-CE8D5202685C}
+		{C844A8D0-3776-4E4C-8BF3-8F45CCD20D57} = {D7FDB31D-5127-48AD-95D7-70D23992E3CF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7D0910EC-0798-4D8C-9CDC-261AA2332627}
