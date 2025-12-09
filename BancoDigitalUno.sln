@@ -11,6 +11,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{D7FDB3
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BancoDigitalUno.Domain", "BancoDigitalUno.Domain\BancoDigitalUno.Domain.csproj", "{C844A8D0-3776-4E4C-8BF3-8F45CCD20D57}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra", "Infra", "{A2361721-9747-45B6-B67B-1772CDA4B348}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{FB368D9B-6182-4182-8F63-C4191DF0CBC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BancoDigitalUno.Infra.Data", "BancoDigitalUno.Infra.Data\BancoDigitalUno.Infra.Data.csproj", "{F9E3EFF2-F7AF-4611-A5F5-5F747E7E24F7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +31,10 @@ Global
 		{C844A8D0-3776-4E4C-8BF3-8F45CCD20D57}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C844A8D0-3776-4E4C-8BF3-8F45CCD20D57}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C844A8D0-3776-4E4C-8BF3-8F45CCD20D57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9E3EFF2-F7AF-4611-A5F5-5F747E7E24F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9E3EFF2-F7AF-4611-A5F5-5F747E7E24F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9E3EFF2-F7AF-4611-A5F5-5F747E7E24F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9E3EFF2-F7AF-4611-A5F5-5F747E7E24F7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +42,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{10D794AF-5622-40D4-802F-538585354746} = {CBBC6B7A-B2CF-4706-A9A9-CE8D5202685C}
 		{C844A8D0-3776-4E4C-8BF3-8F45CCD20D57} = {D7FDB31D-5127-48AD-95D7-70D23992E3CF}
+		{FB368D9B-6182-4182-8F63-C4191DF0CBC9} = {A2361721-9747-45B6-B67B-1772CDA4B348}
+		{F9E3EFF2-F7AF-4611-A5F5-5F747E7E24F7} = {FB368D9B-6182-4182-8F63-C4191DF0CBC9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7D0910EC-0798-4D8C-9CDC-261AA2332627}
