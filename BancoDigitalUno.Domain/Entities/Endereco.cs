@@ -1,4 +1,6 @@
-﻿namespace BancoDigitalUno.Domain.Entities
+﻿using System;
+
+namespace BancoDigitalUno.Domain.Entities
 {
     public class Endereco
     {
@@ -13,6 +15,10 @@
         public string Complemento { get; set; }
 
         public string Cep { get; set; }
+
+        public DateTime DataRegistro { get; set; }
+
+        public DateTime? DataAtualizacao { get; set; }
 
         // Navigation properties.
         public virtual Pessoa Pessoa { get; set; }

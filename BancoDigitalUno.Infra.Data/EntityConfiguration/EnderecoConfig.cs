@@ -28,6 +28,12 @@ namespace BancoDigitalUno.Infra.Data.EntityConfiguration
                 .IsRequired()
                 .HasMaxLength(8);
 
+            Property(c => c.DataRegistro)
+                .IsRequired();
+
+            Property(c => c.DataAtualizacao)
+                .IsOptional();
+
             // Navigation properties.
             Property(c => c.PessoaId)
                 .IsRequired();

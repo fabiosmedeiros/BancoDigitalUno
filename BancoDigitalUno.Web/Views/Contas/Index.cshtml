@@ -1,0 +1,30 @@
+﻿@model IEnumerable<BancoDigitalUno.Domain.Entities.Conta>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Contas</h2>
+
+<div class="table-responsive">
+    <table class="table table-striped table-bordered table-hover">
+        <thead>
+            <tr>
+                <th>Agência</th>
+                <th>Número Conta</th>
+                <th>DV</th>
+                <th>Ativa ?</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Agencia</td>
+                    <td>@item.NumeroConta</td>
+                    <td>@item.DigitoVerificador</td>
+                    <td>@item.IsAtiva</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

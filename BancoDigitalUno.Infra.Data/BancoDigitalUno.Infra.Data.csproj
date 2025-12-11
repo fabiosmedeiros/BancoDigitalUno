@@ -48,6 +48,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Data\Repository\ClienteRepository.cs" />
+    <Compile Include="Data\Repository\ContaRepository.cs" />
+    <Compile Include="Data\Repository\EnderecoRepository.cs" />
+    <Compile Include="Data\Repository\PessoaRepository.cs" />
+    <Compile Include="Data\Repository\Repository.cs" />
+    <Compile Include="Data\UoW\UnitOfWork.cs" />
     <Compile Include="EntityConfiguration\ClienteConfig.cs" />
     <Compile Include="EntityConfiguration\ContaConfig.cs" />
     <Compile Include="EntityConfiguration\EnderecoConfig.cs" />
@@ -55,6 +61,10 @@
     <Compile Include="Migrations\202512091834506_InitialModel.cs" />
     <Compile Include="Migrations\202512091834506_InitialModel.Designer.cs">
       <DependentUpon>202512091834506_InitialModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202512102250246_Add_Campos_Data_Endereco.cs" />
+    <Compile Include="Migrations\202512102250246_Add_Campos_Data_Endereco.Designer.cs">
+      <DependentUpon>202512102250246_Add_Campos_Data_Endereco.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Persistence\BduDbContext.cs" />
@@ -70,13 +80,13 @@
       <Name>BancoDigitalUno.Domain</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Data\Repository\" />
-    <Folder Include="Data\UoW\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202512091834506_InitialModel.resx">
       <DependentUpon>202512091834506_InitialModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202512102250246_Add_Campos_Data_Endereco.resx">
+      <DependentUpon>202512102250246_Add_Campos_Data_Endereco.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

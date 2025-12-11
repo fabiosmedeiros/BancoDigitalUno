@@ -1,0 +1,31 @@
+﻿@model IEnumerable<BancoDigitalUno.Domain.Entities.Endereco>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Endereços</h2>
+
+<div class="table-responsive">
+    <table class="table table-striped table-bordered table-hover">
+        <thead>
+            <tr>
+                <th>Logradouro</th>
+                <th>Numero</th>
+                <th>Complemento</th>
+                <th>CEP</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Logradouro</td>
+                    <td>@item.Numero</td>
+                    <td>@item.Complemento</td>
+                    <td>@item.Cep</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
